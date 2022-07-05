@@ -23,6 +23,7 @@ body {
   background-position: center;
 
   height: 60em;
+  width: 100%;
   backdrop-filter: brightness(50%);
 }
 
@@ -53,13 +54,15 @@ main {
 .countdown-container {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
   padding: 0rem 2rem 0rem 2rem;
   gap: 2rem;
 }
 
 .countdown-container .column {
   display: flex;
-  flex-direction: column;
+  gap: 2rem;
 }
 
 .countdown-container .time {
@@ -140,8 +143,10 @@ footer .social-media ul {
   }
 
   .countdown-container {
+    flex-direction: row;
     gap: 4rem;
   }
+
   .countdown-container .column {
     display: flex;
 
@@ -154,7 +159,7 @@ footer .social-media ul {
     letter-spacing: 10px;
   }
   .countdown-container .time p {
-    font-size: 15rem;
+    font-size: 13em;
     font-family: var(--secondary-font);
   }
   /* #days::after,
