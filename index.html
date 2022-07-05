@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countdown</title>
+  </head>
+  <body>
+    <header>
+      <strong><span>dev</span>countdown</strong>
+    </header>
+
+    <main>
+      <section class="countdown-container">
+        <div class="column">
+          <div class="time time-days">
+            <span>Days</span>
+            <p id="days">00</p>
+          </div>
+
+          <div class="time time-hours">
+            <span>Hours</span>
+            <p id="hours">00</p>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="time time-minutes">
+            <span>Minutes</span>
+            <p id="minutes">00</p>
+          </div>
+
+          <div class="time time-seconds">
+            <span>Seconds</span>
+            <p id="seconds">00</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Subscribe to receive a notification when we launch the app</p>
+      <div class="newsletter">
+        <input type="text" placeholder="Subscribe now" />
+        <button>SUBSCRIBE</button>
+      </div>
+
+      <nav class="social-media">
+        <ul>
+          <li>
+            <a><i class="fa-brands fa-facebook fa-xl"></i></a>
+          </li>
+          <li>
+            <a><i class="fa-brands fa-instagram fa-xl"></i></a>
+          </li>
+          <li>
+            <a><i class="fa-brands fa-twitter fa-xl"></i></a>
+          </li>
+          <li>
+            <a><i class="fa-brands fa-linkedin fa-xl"></i></a>
+          </li>
+          <li>
+            <a><i class="fa-brands fa-youtube fa-xl"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
